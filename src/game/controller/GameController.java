@@ -26,16 +26,7 @@ public class GameController
 			System.out.print("> ");
 			choice = inputScanner.nextLine();
 		}
-		
-/*	  if (choice.equalsIgnoreCase("open refrigerator"))
-		{
-			System.out.println("You open the frigde");
-			System.out.println("There seems to be some fruit, it looks old and modly but is seems to be the only edible thing to eat.");
-			System.out.println("do you wish to eat the food?");
-			System.out.println(">");
-			food = inputScanner.nextLine();
-*/		
-	  
+  
 		if (choice.equalsIgnoreCase("open pantry"))
 		{
 			System.out.println("");
@@ -67,9 +58,7 @@ public class GameController
 				System.out.println("The front door makes a clicking sound and you are able to leave");
 				System.out.println("You win!!!");
 			}
-	
 		}
-
 		inputScanner.close();	
 	}
 	
